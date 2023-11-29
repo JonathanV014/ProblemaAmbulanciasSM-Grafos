@@ -3,8 +3,8 @@
 Este proyecto, desarrollado en Java, aprovecha la potencia de los grafos para ofrecer una respuesta rápida y eficiente ante emergencias en la ciudad de Santa Marta, Colombia.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JonathanV014/ProblemaAmbulanciasSM-Grafos/main/ex.png" width="400" alt="Imagen">
-  <img src="https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png" width="400" alt="Logo de Java">
+  <img src="https://raw.githubusercontent.com/JonathanV014/ProblemaAmbulanciasSM-Grafos/main/ex.png" width="300" alt="Imagen">
+  <img src="https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png" width="300" alt="Logo de Java">
 </p>
 
 Este programa organiza estratégicamente las ambulancias para atender incidentes, desde accidentes de tránsito hasta caídas y desmayos. El sistema garantiza una distribución equitativa de las ambulancias en diferentes barrios de Santa Marta. Cuando ocurre un incidente, el sistema envía la ambulancia más cercana (en km).
