@@ -33,7 +33,7 @@ public class Pintar {
         ((Graphics2D)g).setColor(Color.BLACK);
         Font fuente=new Font("Arial",Font.BOLD, 15);
         g.setFont(fuente);
-        ((Graphics2D) g).setColor(Color.YELLOW); // Cambia Color.RED al color que desees
+        ((Graphics2D) g).setColor(Color.YELLOW);
         ((Graphics2D) g).drawString(n, x, y);  
     }
     
@@ -45,10 +45,8 @@ public class Pintar {
         BasicStroke stroke = new BasicStroke(3);
         ((Graphics2D) g).setStroke(stroke);
 
-        // Dibujar la línea
         ((Graphics2D) g).drawLine(x1 + 10, y1 + 10, x2 + 10, y2 + 10);
 
-        // Calcular posición para el texto
         if (x1 <= x2)
             xAux = ((x2 - x1) / 2) + x1;
         if (x1 > x2)
@@ -76,16 +74,15 @@ public class Pintar {
     
     
     public void clickSobreNodo(Graphics g, int x, int y, String texto, Color a) {
-        // Dibujar círculo con fondo blanco
+
         ((Graphics2D) g).setColor(a);
         ((Graphics2D) g).setStroke(new BasicStroke(3));
         ((Graphics2D) g).fillOval(x, y, 15, 15);
 
-        // Dibujar círculo exterior en negro
+
         ((Graphics2D) g).setColor(Color.BLACK);
         ((Graphics2D) g).drawOval(x, y, 15, 15);
 
-        // Dibujar etiqueta en negro
         ((Graphics2D) g).setColor(Color.BLACK);
         Font fuente = new Font("Arial", Font.BOLD, 15);
         g.setFont(fuente);
